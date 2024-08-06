@@ -27,6 +27,7 @@ ORelay pricing comes in 3 tiers.
 
 **Enterprise** tier is for organisations who need fault tolerance, scalability, and all features that would be expected of a paid product.
 
+{{<table>}}
 |  | Community | Professional | Enterprise | Description |
 |--| --------- | ------------ | ---------- | ----------- |
 | **Monthly Cost** | Free | 100 GBP | 1000 GBP | Support costs are negotiated separately, on a case-by-case basis. Critical issues such as security are handled for free on all tiers including community. |
@@ -41,5 +42,5 @@ ORelay pricing comes in 3 tiers.
 | **TLS** | ❌ | ✅ | ✅ | Encryption of web traffic. This applies to all protocols.|
 | **Clustering** | ❌ | ❌ | ✅ | Having multiple instances of ORelay communicate with each other, for the purpose of fault tolerance and scalability. |
 | **OpenTelemetry** | ❌ | ❌ | ✅ | Metrics that can be displayed in a dashboard. |
-
+{{</table>}}
 
