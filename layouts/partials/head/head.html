@@ -22,4 +22,7 @@
   {{- if templates.Exists "partials/head/custom-head.html" }}
     {{- partial "head/custom-head" . }}
   {{- end }}
+  {{- if templates.Exists "partials/head/google-analytics.html" }}
+    {{- partial "head/google-analytics" . }}
+  {{- end }}
 </head>
