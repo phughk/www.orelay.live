@@ -31,8 +31,8 @@ ORelay pricing comes in 3 tiers.
 |  | Community | Professional | Enterprise | Description |
 |--| --------- | ------------ | ---------- | ----------- |
 | **Monthly Cost** | Free | 100 GBP | 1000 GBP | Support costs are negotiated separately, on a case-by-case basis. Critical issues such as security are handled for free on all tiers including community. |
-| **HTTP 1.2** | ✅ | ✅ | ✅ | Basic web requests, both inbound (client connects to ORelay) and outbound (ORelay connects to a service). |
-| **HTTPS 1.2** | ❌ | ✅ | ✅ | Basic web requests, that are encrypted using TLS. |
+| **HTTP 1.1** | ✅ | ✅ | ✅ | Basic web requests, both inbound (client connects to ORelay) and outbound (ORelay connects to a service). |
+| **HTTPS 1.1** | ❌ | ✅ | ✅ | Basic web requests, that are encrypted using TLS. |
 | **H2C (HTTP2 without TLS)** | ✅ | ✅ | ✅ | The HTTP 2 protocol without TLS. |
 | **HTTP 2** | ❌ | ✅ | ✅ | The web protocol, that is served on a single TCP connection, for performance. Since this requires TLS, it is not available on the community release. |
 | **Cron Expressions** | ✅ | ✅ | ✅ | String expressions that dictate how often an event happens, such as ORelay making polling requests, or generating traffic. |
@@ -43,4 +43,3 @@ ORelay pricing comes in 3 tiers.
 | **Clustering** | ❌ | ❌ | ✅ | Having multiple instances of ORelay communicate with each other, for the purpose of fault tolerance and scalability. |
 | **OpenTelemetry** | ❌ | ❌ | ✅ | Metrics that can be displayed in a dashboard. |
 {{</table>}}
-
